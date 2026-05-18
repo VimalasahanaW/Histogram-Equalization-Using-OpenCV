@@ -90,7 +90,9 @@ plt.show()
 ```
 ## Output
 
-![alt text](image-1.png)
+<img width="493" height="567" alt="image" src="https://github.com/user-attachments/assets/7d9f8b7f-f271-46a2-bb21-288581bb4346" />
+
+
 
 ```
 plt.hist(img.ravel(),256,range = [0, 256]);
@@ -99,7 +101,9 @@ plt.show()
 ```
 ## Output
 
-![alt text](image-2.png)
+<img width="780" height="566" alt="image" src="https://github.com/user-attachments/assets/4a9902fa-6659-48da-918d-37fa8fc414cd" />
+
+
 
 ```
 img_eq = cv2.equalizeHist(img)
@@ -108,7 +112,9 @@ plt.title('Equalized Histogram')
 ```
 ## Output
 
-![alt text](image-3.png)
+<img width="753" height="591" alt="image" src="https://github.com/user-attachments/assets/0bdf193d-3642-48a9-92df-d0d1085dee74" />
+
+
 
 ```
 plt.imshow(img_eq, cmap='gray')
@@ -117,7 +123,9 @@ plt.show()
 ```
 ## Output
 
-![alt text](image-4.png)
+<img width="470" height="570" alt="image" src="https://github.com/user-attachments/assets/3d2684fc-7c73-4bf3-8a42-b7ea160fdbce" />
+
+
 
 ## Histogram Equalization for Color Images
 
@@ -130,14 +138,16 @@ img_eq = cv2.cvtColor(img_hsv, cv2.COLOR_HSV2BGR)
 ```
 ## Output
 
-![alt text](image-5.png)
+<img width="406" height="545" alt="image" src="https://github.com/user-attachments/assets/dd788ed0-75bb-4eb3-bd14-c54fcd6332ba" />
+
 
 ```
 plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Histogram Equalized');plt.show()
 ```
 ## Output
 
-![alt text](image-6.png)
+<img width="406" height="545" alt="image" src="https://github.com/user-attachments/assets/b06b4eae-e198-4629-968d-8db1a00c2289" />
+
 
 ```
 plt.figure(figsize = (20,10))
@@ -147,7 +157,8 @@ plt.show()
 ```
 ## Output
 
-![alt text](image-7.png)
+<img width="1367" height="512" alt="image" src="https://github.com/user-attachments/assets/1c088a15-1e61-42ec-a521-4f0b7ac79f00" />
+
 
 ```
 plt.figure(figsize = [15,4])
@@ -157,7 +168,8 @@ plt.subplot(122); plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Hist
 
 ## Output
 
-![alt text](image-8.png)
+<img width="1377" height="443" alt="image" src="https://github.com/user-attachments/assets/e1b0b036-60d5-44ec-8072-0c93afcc67ea" />
+
 
 ### Grayscale Histogram Equalization
 
