@@ -146,7 +146,8 @@ plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Histogram Equalized');
 ```
 ## Output
 
-<img width="406" height="545" alt="image" src="https://github.com/user-attachments/assets/b06b4eae-e198-4629-968d-8db1a00c2289" />
+<img width="792" height="566" alt="image" src="https://github.com/user-attachments/assets/7dd12302-b7a6-4f21-bfc9-8bbeecea02c5" />
+
 
 
 ```
